@@ -16,6 +16,7 @@ header{
     justify-content: center;
 }
 
+/*cards*/
 .nav_links li a:visited {
     color: blue;
 }
@@ -35,6 +36,7 @@ header{
     flex-basis: 450px;
 }
 
+/*pricing*/
 .pricing{
     display: flex;
     justify-content: center;
@@ -42,6 +44,7 @@ header{
     flex-wrap: wrap;
 }
 
+/*gallery*/
 .gallery > img{
     border: solid 10px #50C7C7;
     margin: 10px;
@@ -54,6 +57,7 @@ header{
     flex-wrap:wrap;
 }
 
+/*width > 900 */
 @media screen and (min-width: 900px){
 
     header{
@@ -96,12 +100,14 @@ header{
     }
   }
 
+/*reduced motion*/
   @media (prefers-reduced-motion) {
     #logo {
       animation: none;
     }
 }
 
+/*print*/
 @media print { 
     .card {
       flex-basis: 200px;
